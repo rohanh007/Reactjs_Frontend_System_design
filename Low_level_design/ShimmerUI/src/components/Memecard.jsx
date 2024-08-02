@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 import { FaArrowUp, FaArrowDown, FaCommentAlt } from 'react-icons/fa';
 
-
 const Memecard = (data) => {
     console.log(data);
 

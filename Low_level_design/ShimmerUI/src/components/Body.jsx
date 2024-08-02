@@ -2,10 +2,8 @@ import React, { useEffect, useState } from 'react'
 import '../App.css';
 import Memecard from './Memecard';
 import Shimmer from './Shimmer';
-
 const Body = ()=>{
     const [Meme , setMeme]=useState(null);
-
     useEffect(()=>{
        fetchmeme();
 
@@ -30,7 +28,6 @@ const Body = ()=>{
         }
         
     }
-
     return (
         <div className='container'>
 

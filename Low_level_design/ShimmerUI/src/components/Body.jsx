@@ -11,7 +11,7 @@ const Body = ()=>{
 
     const fetchmeme= async ()=>{
         try{
-            const getmeme= await fetch('https://meme-api.com/gimme/10000');
+            const getmeme= await fetch('https://meme-api.com/gimme/1000');
             if(!getmeme.ok)
                 {
                    throw new Error(`HTTP Status Error Status:${getmeme.status}` );
